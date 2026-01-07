@@ -7,7 +7,7 @@
         <field name="arch" type="xml">
             <!-- Insert Relatives tab after Personal Info (basic_info page) -->
             <xpath expr="//page[@name='basic_info']" position="after">
-                <page name="relatives" string="Nominee">
+                <page name="relatives" string="Nominee info">
                     <group col="2">
                         <group>
                             <field name="nominee_first_name" />
